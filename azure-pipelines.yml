@@ -84,7 +84,7 @@ stages:
                 - task: AzureWebApp@1
                   displayName: 'Azure App Service Deploy: website'
                   inputs:
-                    azureSubscription: 'Visual Studio Enterprise – MPN (jdianderas)'
+                    azureSubscription: 'Resource Manager - Tailspin - Space Game'
                     appName: '$(WebAppName)'
                     appType: webAppWindows
                     package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
