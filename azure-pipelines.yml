@@ -72,7 +72,7 @@ stages:
   - deployment: Deploy
     pool:
         vmImage: 'ubuntu-16.04'
-    # enviroment: dev
+    enviroment: dev
     variables:
     - group: Default
     strategy:
